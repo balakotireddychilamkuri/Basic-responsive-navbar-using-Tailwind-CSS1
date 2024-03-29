@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearbuzz.com</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body class=" bg-cyan-900 pt-4 bg-[url('https://www.nearbuzz.com/images/hero-bg-AImesh.svg')] bg-cover" >
+    
+   <header>
+    <div class=" text-white grid grid-flow-col pt-2  ">
+        <div class="flex justify-start align-middle">
+            <img class="h-14" src="https://www.nearbuzz.com/images/nearbuzz-logo-light.svg" >
+        </div> 
+
+        <div id="menu"    class="   hidden md:flex md:justify-between ">
+            <div class=" text-white flex justify-center items-center p-2"  >
+                <div class="px-2 mx-2"><a href="#">Home</a></div>
+                <div class="px-2 mx-2"><a href="#">Advertisers</a></div>
+                <div class="px-2 mx-2"><a href="#">Media Owenrs</a></div>
+                <div class="px-2 mx-2"><a href="#">Technology</a></div>
+                <div class="px-2 mx-2"><a href="#">Blogs</a></div>
+                <div class="px-2 mx-2"><a href="#">Contact</a></div>
+            </div>
+            <div class=" text-white flex justify-center items-center p-2" >
+                
+                <div><button>Login</button></div>
+                <div class="px-2 mx-2">
+                    <button class="bg-yellow-400 text-white px-4 rounded-lg py-2">
+                    Sign UP
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hamburger icon for mobile -->
+        <!-- Hamburger icon for mobile -->
+        <div class="absolute right-0 top-8 mr-8 md:hidden">
+            <div id="menuIcon">
+                <ion-icon onclick="showMenu(this)" name="menu" class="text-3xl cursor-pointer"></ion-icon>
+            </div>
+            <div id="closeIcon" class="hidden">
+                <ion-icon onclick="closeMenu(this)" name="close" class="text-3xl cursor-pointer"></ion-icon>
+            </div>
+        </div>
+    </div>
+   </header>
+   
+
+   <div class=" md:pt-20 mx-14 grid md:grid-flow-col">
+
+
+        <div >
+            <h1 class="text-white text-3xl md:text-6xl ">
+                Digital OOH Advertisers Platform
+                <b class="py-3">With Audience Measurement</b>
+                
+
+            </h1>
+            <p class="text-white py-5 text-2xl">Publish Or Sournce campaigns and measure their effectiveness
+                <br class="py-5">
+                All with the simplicity and convenience of a web dashboard
+            </p>
+
+
+
+            <div class="py-11 ">
+                <button class="bg-yellow-400 text-violet-700 px-7 py-4 rounded-xl">
+                    <h1>Explore Now</h1>
+
+                </button>
+
+
+               
+            </div>
+          
+        </div>
+        <div class="grid grid-flow-row bg-[url('https://www.nearbuzz.com/images/hero-bg-AImesh.svg')]"> 
+            <img src="https://www.nearbuzz.com/images/hero-dashboard.svg" alt="" class="mr-20">
+        </div>
+    </div>
+       
+
+       
+
+        
+</div>
+
+<script  src="index.js">
+   
+</script>
+   
+    
+</body>
+</html>
